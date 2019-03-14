@@ -1,0 +1,1167 @@
+{
+  "1": [
+    "Merge pull request"
+  ],
+  "2": [
+    "Change `kotlin`-configuration to kotlinCompile, preventing clash with…",
+    "Create a new ruleset instance for every analyzing ktFile to prevent m…",
+    "Ensure filters and rulesets can be really empty and not having one em…"
+  ],
+  "3": [
+    "Introduce jcommander for argument validation -"
+  ],
+  "4": [
+    "Implement ComplexCondition rule -",
+    "Correct default configuration yaml file to support complexity ruleset -",
+    "Implement TooManyFunctions rule -",
+    "Migrate all rules to be configurable, extract config interface -",
+    "Pass configuration to detekt -"
+  ],
+  "5": [
+    "Introduce complexity report in cli -",
+    "Add complex testcase for lloc and mccabe visitors -",
+    "Implement lloc visitor -",
+    "Consider parent class name for companion objects class names -"
+  ],
+  "6": [
+    "While suppress annotation not found inspect KtAnnotated parents -",
+    "Write test cases for all suppression levels -",
+    "Support",
+    "Find annotated parent and check for suppression -",
+    "Support suppressing of different rules -",
+    "Use absolute path for location's file property -"
+  ],
+  "7": [
+    "Allow to turn off whole rulesets in configuration file -"
+  ],
+  "8": [
+    "Add sample ruleset project -"
+  ],
+  "10": [
+    "Allow to customize NamingConventionViolation -",
+    "Remove NoElseInWhenExpression rule -"
+  ],
+  "11": [
+    "Fix jcommander specific parameter parsing -",
+    "Use thresholded code smell in rules with metric thresholds -"
+  ],
+  "12": [
+    "Provide common usage interfaces for working with entities/metrics - C…"
+  ],
+  "14": [
+    "Update readme for milestone 8 -"
+  ],
+  "15": [
+    "Fix top level variable declarations count as constants in objects (Na…",
+    "Remove comments from method signatures and trim signatures to fit in …"
+  ],
+  "16": [
+    "Remove broken task test -",
+    "Refactor DetektConfig class to DetektExtension -",
+    "Configure args after evaluation phase, include migration task -",
+    "Fix gradle plugin by using JavaExec task to run detekt -",
+    "Store relative paths for findings -"
+  ],
+  "17": [
+    "Accept external ruleset.jar's -"
+  ],
+  "18": [
+    "Handle Runtime- and IndexOutOfBoundsExceptions from DiagnosticUtils -",
+    "Write documentation for detekt-api module -"
+  ],
+  "19": [
+    "Consider constants when evaluating variable naming conventions -"
+  ],
+  "20": [
+    "Add default detekt config yaml file -"
+  ],
+  "21": [
+    "Prototype detekt sonar kotlin plugin -",
+    "Move junit platform plugin to parent gradle build -",
+    "Clean up gradle multiproject configuration -"
+  ],
+  "23": [
+    "Make mentions of annotations bold -",
+    "Include a table of contents for the readme -",
+    "Increment version to m2 -"
+  ],
+  "24": [
+    "Introduce detekt profiles for gradle plugins allowing to specify diff…",
+    "Introduce configurable enum entry pattern -",
+    "Allow underscore in enum entries -",
+    "Fix white- and blacklisted filtering by using list.contains() -",
+    "Always measure running time of detekt -",
+    "Include detekt-gradle-plugin in build -",
+    "Write detekt gradle plugin -"
+  ],
+  "25": [
+    "Implement idea formatting task -",
+    "Write using detekt in custom gradle projects -"
+  ],
+  "27": [
+    "Add publishing to gradle plugins site -",
+    "Implement EmptyWhenBlock rule -"
+  ],
+  "28": [
+    "Run detekt after gradle build -",
+    "Use oraclejdk8 in travis ci -",
+    "Configure travis ci -",
+    "Implement DuplicateCaseInWhen rule -"
+  ],
+  "29": [
+    "Inverse enable and disable default rulesets, fixing no loading of cus…",
+    "Extract cli commons tasks -",
+    "Implement ignore disabled default rule sets logic in locator -",
+    "Let default rule sets be disableable in cli -",
+    "Implement more instance methods for DetektFacade -",
+    "Do not let Detektor load the providers, providers should be added thr…",
+    "Refactor core classes -",
+    "Implement ExplicitGCCall rule -",
+    "Extends EqualsWithHashCode rule to support nested classes -",
+    "Implement EqualsWithHashCode rule -"
+  ],
+  "30": [
+    "Correct extraction of imports from config -",
+    "Make migration tool runnable with shadow jar -",
+    "Implement migration module based on cli module -",
+    "Implement ExplicitGCCall rule -"
+  ],
+  "31": [
+    "Remove magic in the init method of Output class -",
+    "Implement CatchException rules -"
+  ],
+  "32": [
+    "Make formatting module runnable as cli -",
+    "Implement ThrowException rules -"
+  ],
+  "33": [
+    "Document gradle-plugin -",
+    "Use the maven-publish plugin everywhere -"
+  ],
+  "35": [
+    "Rename to ExpressionBodySyntax -",
+    "Transform single return statement to expression syntax -",
+    "Implement autoCorrect for equals on same line as single expression -",
+    "Implement rule which asserts equals sign is on the same line as the e…",
+    "Introduce --parallel, --useTabs, --format parameters for CLI -"
+  ],
+  "36": [
+    "Rename to ExpressionBodySyntax -",
+    "Enforce expression on same line -",
+    "Introduce new code smell finding type with reference and metric -",
+    "Add feature envy to code-smell provider -",
+    "Make feature envy rule configurable -",
+    "Find on feature envy in test case -",
+    "Change collectByType to work on ktElements -",
+    "Extract ktElement extensions from feature envy to junk -",
+    "Rename inner classes for feature envy-",
+    "Calculate feature envy factor -",
+    "Find all variables on which envy is put on -",
+    "Write test case for feature envies -",
+    "Implement function to collect all function calls -",
+    "Implement class baselines for feature envy detection -"
+  ],
+  "38": [
+    "Consider only lambda extensions which help to skip checks or iteratin…"
+  ],
+  "39": [
+    "Document how to run detekt in a maven project using anttask -"
+  ],
+  "40": [
+    "Include junit-jupiter -"
+  ],
+  "41": [
+    "Make gradle-plugin version configurable -",
+    "Finish migrating formatting test cases -",
+    "Remove sout -",
+    "Start migration of ktLint test cases -",
+    "Add compileFromContent to kt compiler and mark it unstable -",
+    "Add unstable annotation which indicates experimental members -",
+    "Make auto correct to be enabled as default which makes testing easier…",
+    "Apply formatting -",
+    "Migrate remaining rules from ktlint -",
+    "Start migrating ktlint formatting rules -"
+  ],
+  "45": [
+    "Mark new formatting rules as active but let auto correct for them at …",
+    "Implement OptionalReturnKeyword rule -",
+    "Deprecate old methods for rule testing in detekt-api, they will be re…",
+    "Allow to sub class KtCompiler -",
+    "Add new detekt test module -"
+  ],
+  "47": [
+    "Add test cases for",
+    "Implement",
+    "Remove deep nesting -",
+    "Only modify file if trailing spaces are found -",
+    "Mark SpacingAroundCurlyBraces as unstable as adding findings is disab…",
+    "Disable trailing spaces test case -",
+    "Comment auto correct of trailing spaces as they modify the underlying…"
+  ],
+  "48": [
+    "Update README.md with new `--generate-config` flag -",
+    "Use ConfigExporter in Main if `generateConfig` is set -",
+    "Implement `ConfigExporter` in Configurations.kt -",
+    "Implement `Executable` interface -",
+    "Move `default-detekt-config.yml` into cli/resources -",
+    "Add flag `--generate-config` to DetektExtensions.kt -",
+    "Add flag `--generate-config` to Main.kt -",
+    "Rename --disableDefaultRuleSets to --disable-default-rulesets -",
+    "Introduce --parallel, --useTabs, --format parameters for CLI -",
+    "Deprecate detekt-rules compile method -",
+    "Move unstable to own class -",
+    "Stop using old test compile methods of detekt-api and detekt-rules - C…"
+  ],
+  "51": [
+    "Do not count elif-structure as two nested block depth -",
+    "Introduce --parallel, --useTabs, --format parameters for CLI -",
+    "Metion detekt-test in readme -"
+  ],
+  "52": [
+    "Upgrade to kotlin 1.0.5 -"
+  ],
+  "53": [
+    "Implement indentation with variable amount of spaces -",
+    "Implement idea formatting task -",
+    "Use Executors.newFixedThreadPool instead of common thread pool -"
+  ],
+  "56": [
+    "Do not override core visit(root: ktFile) method of rule as it perform…",
+    "Allow to specify fail/warning threshold for cli -",
+    "Add screenshot 'detekt in action' -",
+    "Write formatting section -",
+    "Introduce useTabs keyword in configuration -"
+  ],
+  "57": [
+    "Restructure cli classes -",
+    "Use proper handling of escaped sequences in ID tags -",
+    "Read ID text only if within a black- or whitelist -",
+    "Move BaselineHandler to own class -",
+    "Catch SaxParserException in baseline format read method -",
+    "Migrate baseline xml parsing from quide -",
+    "Move Underestimated text length fix method to Junk -",
+    "Recover from \"Underestimated text length\"-Problem -",
+    "Add screenshot 'detekt in action' -",
+    "Write formatting section -"
+  ],
+  "58": [
+    "Make sure only to remove return keywords from last statement -",
+    "Update to milestone 3 -"
+  ],
+  "59": [
+    "Write documentation how to use the gradle-plugin with gradle-script-k…"
+  ],
+  "60": [
+    "Optimize string representation of location -",
+    "Rewrite UnusedImports as KtLint version did not considered infix exte…"
+  ],
+  "62": [
+    "Create idea format/inspect argument lists -",
+    "Create idea extension and common tasks -",
+    "Allow underscores in constant variable names -"
+  ],
+  "63": [
+    "Fix build caused by JunitPlatform M3 -"
+  ],
+  "64": [
+    "Use empty config is yaml content is empty -",
+    "Ignore top level members as they have no declared class or object - C…",
+    "Check ktFiles without classes in LargeClass- and EqualsWithHashCodeEx…"
+  ],
+  "66": [
+    "Update readme and changelog to meet milestone 6 features -",
+    "Move formatting rules to own detekt-formatting project -",
+    "Extract ktFile related methods in own file -",
+    "Normalize file content before creating ktFile preventing nested excep…"
+  ],
+  "67": [
+    "Fail on idea tasks errors -",
+    "Implement idea formatting task -",
+    "Create idea format/inspect argument lists -",
+    "Create idea extension and common tasks -",
+    "Allow variables inside object declaration to be uppercase and with un…"
+  ],
+  "68": [
+    "Introduce progress tracking through a FileProcessListener interface i…"
+  ],
+  "69": [
+    "Migrate to embeddable compiler -",
+    "Migrate to kotlin-compiler-embeddable -"
+  ],
+  "71": [
+    "Exclude KtPropertyAccessor without body from spacing check -",
+    "Write a changelog for all milestones -"
+  ],
+  "77": [
+    "Introduce compactWithSignature()-method for findings which is now use…",
+    "Allow only kotlin files to be compiled (ending must be kt and length …",
+    "Allow to save findings in a file -"
+  ],
+  "82": [
+    "Make Config and sub classes more ClassCastException safe -",
+    "Fix white- and blacklisted filtering by using list.contains() -",
+    "Always measure running time of detekt -"
+  ],
+  "83": [
+    "Introduce new --create-baseline flag to generate a baseline -",
+    "Support weights for rules and rule sets in subconfig 'build' -",
+    "Fix white- and blacklisted filtering by using list.contains() -",
+    "Always measure running time of detekt -"
+  ],
+  "87": [
+    "Do not remove return types in ExpressionBodySyntax rule -",
+    "Introduce configurable enum entry pattern -",
+    "Allow underscore in enum entries -",
+    "Make build ready for bintray continuous deployment -",
+    "Fix white- and blacklisted filtering by using list.contains() -",
+    "Always measure running time of detekt -"
+  ],
+  "88": [
+    "Introduce detekt profiles for gradle plugins allowing to specify diff…",
+    "Check override-modifier before checking the parameter list -"
+  ],
+  "89": [
+    "Ensure parsing yml types for indentation -",
+    "Introduce configurable enum entry pattern -",
+    "Allow underscore in enum entries -",
+    "Make sure that dependencies section must be below other sections -",
+    "Fix white- and blacklisted filtering by using list.contains() -",
+    "Always measure running time of detekt -"
+  ],
+  "92": [
+    "Support multiple config files merged in detekt profiles -",
+    "Support multiple input config files -",
+    "Implement composable configurations -",
+    "Introduce configurable enum entry pattern -",
+    "Allow underscore in enum entries -",
+    "Fix white- and blacklisted filtering by using list.contains() -",
+    "Always measure running time of detekt -"
+  ],
+  "93": [
+    "Introduce config interface -",
+    "Separate configuration possibilities from rule class -",
+    "Remove addFindings method, use report instead -",
+    "Separate finding logic from rule logic -"
+  ],
+  "95": [
+    "Change suppressed names to meet new TooGenericExceptionCatched naming -",
+    "Reimplement thrown-/catched exception rules -",
+    "Use SingleAssign instead of lateinit -",
+    "Visit condition of empty block rules before running them -",
+    "Add test case for deactivated empty block rules -",
+    "Rename EmptySecondaryConstructorBlock to EmptySecondaryConstructor -",
+    "Add all empty block rules to default config -",
+    "Combine all empty block rules into one multi rule -"
+  ],
+  "97": [
+    "Use Issue class in all rules -",
+    "Revert formatting changes in test cases classes -",
+    "Introduce issue class, the missing abstraction between rule and findi…"
+  ],
+  "100": [
+    "Fix style violations -"
+  ],
+  "101": [
+    "Remove loading processors from cli -",
+    "Add detekt file processors to cli -",
+    "Load file processors and console-, output reports through a service l…",
+    "Extract processor, notification and processor api to api module -"
+  ],
+  "102": [
+    "Add github milestone report groovy script -",
+    "Add changelog for milestone 11 and 12 -"
+  ],
+  "104": [
+    "Add more tests for missing documentation on objects -",
+    "Fix false positive reporting of undocumented classes -"
+  ],
+  "105": [
+    "Update documentation and migration for milestone 12 -"
+  ],
+  "108": [
+    "Fix suppression for class level annotations -"
+  ],
+  "109": [
+    "Change exceptions property to exceptionNames -",
+    "Change names to UndocumentedX in default config -",
+    "Rename NoDocOverX rules to UndocumentedX -"
+  ],
+  "115": [
+    "Unify resource loading in an os independent way -"
+  ],
+  "116": [
+    "Fix duplicated main profile -"
+  ],
+  "118": [
+    "Add appveyor configuration file -"
+  ],
+  "121": [
+    "Use humanfriendly link format inside changelog -",
+    "Fix white- and blacklisted filtering by using list.contains() -",
+    "Always measure running time of detekt -"
+  ],
+  "124": [
+    "Update kotlin version to 1.1.3-2 -"
+  ],
+  "129": [
+    "Added rule for abstract modifiers in interfaces",
+    "Add style rule for ModifierOrder -"
+  ],
+  "134": [
+    "Rename more rules to plugins -",
+    "Rename rules to plugins argument - #"
+  ],
+  "141": [
+    "Implement syntax highlighting for sonar-plugin -"
+  ],
+  "143": [
+    "Support referencing custom detekt config files from sonarqube -"
+  ],
+  "144": [
+    "Use ServiceLoader to load all detekt rules -"
+  ],
+  "147": [
+    "Adjust detekt way profile on default configuration -"
+  ],
+  "148": [
+    "Do not report overriden empty function blocks -"
+  ],
+  "152": [
+    "Print always the total number of code smells -"
+  ],
+  "157": [
+    "Remove quality profile property -",
+    "Add global property to create quality profiles based on detekt yaml c…"
+  ],
+  "158": [
+    "Do not default mark all issues as severity major for detekt way quali…"
+  ],
+  "159": [
+    "Add build failure check to formatting gradle task -"
+  ],
+  "166": [
+    "Fix issue when default config should from the resources by the cli - c…"
+  ],
+  "171": [
+    "Prepend project name to findings path -",
+    "Refactor output format to be independent of constructor arguments -",
+    "Move ConsoleReport to api module -",
+    "Correct printing of findings -",
+    "Implement build failure as ConsoleReport -",
+    "Implement ConsoleReport facility -"
+  ],
+  "176": [
+    "Update changelog for last PRs -",
+    "Add small readme, changelog enhancements -",
+    "Use sonar -",
+    "Update contributors and credits list -",
+    "Update licence copyright date and authors -",
+    "Extend changelog for milestone 13 -",
+    "Extend contribution guide for new rules -",
+    "Update version to M13, clean up detekt findings -"
+  ],
+  "189": [
+    "Turn off comments over private function/property -"
+  ],
+  "198": [
+    "Add new UndocumentedPublicClass properties -",
+    "Extend UndocumentedPublicClass with searchInNestedClass, searchInInne…"
+  ],
+  "199": [
+    "Allow package matching via excludeAnnotatedProperties in LateinitUsag…"
+  ],
+  "201": [
+    "Fix unused import false positive in kdoc -"
+  ],
+  "212": [
+    "Fail fast in detekt CI -"
+  ],
+  "213": [
+    "Exclude anonymous objects from documentation check -",
+    "Allow package matching via excludeAnnotatedProperties in LateinitUsag…"
+  ],
+  "214": [
+    "Provide a test case for custom rule sets -"
+  ],
+  "222": [
+    "Rewrite sample test with newer detekt-test api -"
+  ],
+  "227": [
+    "Use TestPattern inside Detektor to filter RuleSets and Rules for tes…",
+    "Use the system separator -",
+    "Prototype test pattern configuration -"
+  ],
+  "231": [
+    "Use main profile always as baseline if specified -"
+  ],
+  "243": [
+    "Introduce extension interface -"
+  ],
+  "247": [
+    "Implement MagicNumber rule -"
+  ],
+  "257": [
+    "Rewrite sample project -"
+  ],
+  "276": [
+    "Add test case for crashing property -"
+  ],
+  "280": [
+    "Implement ignore checks for MagicNumber based on checkstyle -"
+  ],
+  "287": [
+    "Use sets for baseline lists for performance and avoid duplicates - Fixes"
+  ],
+  "301": [
+    "Generate test coverage report and upload to Codecov"
+  ],
+  "304": [
+    "Do not consider empty returns as optional -"
+  ],
+  "313": [
+    "Print a deprecation warning when using 'warningThreshold' or 'failThr…",
+    "Update test cases and introduce maxIssues property -"
+  ],
+  "326": [
+    "Remove useTabs from sample Maven config in README",
+    "Add issue description to ported rules -",
+    "Port UnusedImports to style rule set -",
+    "Remove format and useTabs parameters from cli -",
+    "Remove formatting information from readme -",
+    "Remove formatting module -",
+    "Migrate optional unit and return rules from formatting -"
+  ],
+  "341": [
+    "Decouple KtTreeCompiler from Detektor -"
+  ],
+  "345": [
+    "Provide signing config for bintray -",
+    "Generate javadocJar for maven central publishing -"
+  ],
+  "349": [
+    "Do not use reflection for toString methods -"
+  ],
+  "373": [
+    "Do not double report naming conventions, fix test skipping by upgradi…"
+  ],
+  "377": [
+    "Support exclusion via Annotations for UnnecessaryAbstractClass -"
+  ],
+  "389": [
+    "Fixed"
+  ],
+  "396": [
+    "Correct mccabe complexity calculation -"
+  ],
+  "413": [
+    "Support idea tasks also for windows -"
+  ],
+  "417": [
+    "Removed FeatureEnvy test cases"
+  ],
+  "423": [
+    "Update FunctionNaming regex to work for sentences"
+  ],
+  "428": [
+    "Fixes"
+  ],
+  "435": [
+    "Fixed"
+  ],
+  "438": [
+    "Remove redundant build info -",
+    "Add repositories -",
+    "Introduce full blown gradle build file for sample project -",
+    "Improve documentation of sample project -"
+  ],
+  "442": [
+    "Allow to suppress StringLiteralDuplication on class level -"
+  ],
+  "465": [
+    "Added FunctionOnlyReturnConstant rule",
+    "Fixed"
+  ],
+  "466": [
+    "Merge pull request"
+  ],
+  "490": [
+    "Add OutputReport implementation that generates an HTML report. -"
+  ],
+  "491": [
+    "Restrict Postfix operators to ++ and -- -"
+  ],
+  "495": [
+    "Rework naming rules to match intellij -"
+  ],
+  "496": [
+    "Generate jekyll header and remove unnecessary table of contents as th…"
+  ],
+  "500": [
+    "Update README for failFast option"
+  ],
+  "506": [
+    "Add intellij's default excludes for wildcards -",
+    "Add excludeImports property for default config -"
+  ],
+  "512": [
+    "Auto deploy SNAPSHOT versions."
+  ],
+  "514": [
+    "Added excludedFunctions option to FunctionReturningConstant",
+    "Added ignoreOverriddenFunction option to FunctionReturningConstant"
+  ],
+  "522": [
+    "Use newer extension syntax in example for Kotlin DSL and add in expli…",
+    "Fixed"
+  ],
+  "523": [
+    "Implemented"
+  ],
+  "527": [
+    "Refactored rules/style test cases",
+    "Reverted UnnecessaryAbstractClass",
+    "Refactored rules/exceptions test cases",
+    "Refactored rules/empty test cases",
+    "Refactored rules/documentation test cases",
+    "Refactored rules/complexity test cases",
+    "Refactored the last part of the rules/bugs test cases",
+    "Refactored Iterator and rules/bugs test cases",
+    "Remove unnecessary check in EqualsWithHashCodeExists",
+    "Fixed bug in EqualsAlwaysReturnsTrueOrFalse",
+    "Refactored DuplicateCaseInWhenSpec test cases"
+  ],
+  "534": [
+    "Fixed bug in UnnecessaryAbstractClass",
+    "Reverted UnnecessaryAbstractClass"
+  ],
+  "537": [
+    "Allow throwing exceptions in init blocks -"
+  ],
+  "542": [
+    "Implement new profiles dsl -"
+  ],
+  "545": [
+    "Add --plugins option to gradle plugin -"
+  ],
+  "550": [
+    "Added UnnecessaryAbstractClass without body detection"
+  ],
+  "552": [
+    "Improve issue description -",
+    "Rewrite messages and issue description for TooManyFunctions rule -",
+    "Make TooManyFunctions rule more configurable -"
+  ],
+  "566": [
+    "Use sets for baseline lists for performance and avoid duplicates - Fixes",
+    "Do not use interal removed IndentingXMLStreamWriter -"
+  ],
+  "568": [
+    "Add unsafe casts present in codebase to the baseline -",
+    "Turn on UnsafeCast in detekt checks -",
+    "Fix unsafe cast in SpacingBetweenPackageAndImports -"
+  ],
+  "576": [
+    "Improved documentation for rule test cases -"
+  ],
+  "577": [
+    "README: Update description of the 'output' parameter for the Gradle p…"
+  ],
+  "586": [
+    "Remove InterruptedException from TooGenericExceptionCaught rule."
+  ],
+  "602": [
+    "Appveyor: Use default git config"
+  ],
+  "605": [
+    "Support multiple input paths -",
+    "Rename creation method instance to create -",
+    "Do not depend on a specific project path in core classes -"
+  ],
+  "643": [
+    "Implements"
+  ],
+  "659": [
+    "Fix false negative reporting of non-named argument -"
+  ],
+  "664": [
+    "Fix file naming code smells -",
+    "Add test cases for enums and interfaces -",
+    "Document and generate config for MatchingDeclarationName rule -",
+    "Implement file matches declaration as a rule -"
+  ],
+  "666": [
+    "Do not run EmptyFunctionBlock on open functions"
+  ],
+  "678": [
+    "Updated anchor tags to lower case in detekt-generator -"
+  ],
+  "680": [
+    "Added ignoreSingleWhenExpression config for ComplexMethod rule"
+  ],
+  "682": [
+    "Fix class with delegates is no utility class false positive -"
+  ],
+  "691": [
+    "Fixed"
+  ],
+  "694": [
+    "Added `excludeAnnotatedClasses` to UseDataClass -"
+  ],
+  "715": [
+    "Support suppression of single instances of MaxLineLength violations - C…"
+  ],
+  "716": [
+    "Corrected documentation in EnumNaming -"
+  ],
+  "723": [
+    "Fixed incorrect behavior of EmptyDefaultConstructor -"
+  ],
+  "727": [
+    "Ignored classes with supertype entries from UnnecessaryAbstractClass"
+  ],
+  "734": [
+    "Added allowedExceptionNameRegex config for EmptyCatchBlock"
+  ],
+  "738": [
+    "Fixed"
+  ],
+  "758": [
+    "Fix ConcurrentModificationException -"
+  ],
+  "759": [
+    "Remove redundant documentation parts from readme, link to detekt's we…"
+  ],
+  "764": [
+    "Added excludeClassPattern documentation for VariableNaming rule"
+  ],
+  "767": [
+    "Fixed report of unnecessary parentheses when assigning a lambda to a val"
+  ],
+  "768": [
+    "Implemented EndOfSentenceFormat to support urls as last argument"
+  ],
+  "783": [
+    "Fixed"
+  ],
+  "791": [
+    "Fixed"
+  ],
+  "793": [
+    "Do not crash on rule exceptions -"
+  ],
+  "795": [
+    "Add dependencies for gradle plugin (for custom rules)"
+  ],
+  "797": [
+    "Create pull request template -",
+    "Create issue template -"
+  ],
+  "800": [
+    "Updated EmptyFunctionBlock rule"
+  ],
+  "807": [
+    "Convert tasks to SourceTasks",
+    "Remove",
+    "Don't treat 'input' parameter to Gradle as an InputDirectory"
+  ],
+  "808": [
+    "Respect string interpolation -"
+  ],
+  "811": [
+    "Do not write deprecated build fail properties to default config file - …"
+  ],
+  "812": [
+    "Split testing file into positive and negative cases -",
+    "Introduce regex configuration for unused private member -",
+    "Reduce false positives for unused private functions -",
+    "Fix false positives in unused private members -"
+  ],
+  "814": [
+    "Fixed"
+  ],
+  "838": [
+    "Use absolute paths in console output to make them clickable -"
+  ],
+  "844": [
+    "Added constantPattern to ObjectPropertyNaming"
+  ],
+  "854": [
+    "Don't treat 'output' parameter to Gradle as an OutputDirectory"
+  ],
+  "857": [
+    "Fixes"
+  ],
+  "862": [
+    "Make executor in detekt configurable -"
+  ],
+  "866": [
+    "Adjust top level property naming to be on pair with intellij -"
+  ],
+  "881": [
+    "Fix default value handling in composite config -"
+  ],
+  "882": [
+    "Add FunctionName as alias -"
+  ],
+  "896": [
+    "Make project website more prominent in readme -"
+  ],
+  "900": [
+    "Fixed MayBeConst false negative when concatenating strings"
+  ],
+  "904": [
+    "Updated StringLiteralDuplication to treat multiline string parts as 1"
+  ],
+  "906": [
+    "Update RethrowCaughtException according to",
+    "Added support for special handling in RethrowCaughtException"
+  ],
+  "909": [
+    "Applied allowedNames in UnusedPrivateMember to properties"
+  ],
+  "925": [
+    "Document formatting rule set -",
+    "Allow autoCorrect only if ruleSet also allows it -",
+    "Format codebase with ktlint -",
+    "Update and activate ktlint in self-analysis -"
+  ],
+  "926": [
+    "Fix divergent issues with UnsafeCasts rule on windows -"
+  ],
+  "944": [
+    "Do not crash on rule exceptions -"
+  ],
+  "950": [
+    "Updated ExpressionBodySyntax to allow for exclusion on line wrapping"
+  ],
+  "954": [
+    "Rule `Explicit it lambda parameter`"
+  ],
+  "960": [
+    "Fixed"
+  ],
+  "964": [
+    "Fix SerialVersionUIDInSerializableClass when value's less then zero"
+  ],
+  "970": [
+    "Implement UnusedPrivateClass rule -"
+  ],
+  "972": [
+    "UnusedPrivateMember: do not report unused parameters in abstract/open…"
+  ],
+  "976": [
+    "Fix ExpressionBodySyntax when multiline expression"
+  ],
+  "979": [
+    "Add aliases to rule documentation"
+  ],
+  "980": [
+    "Refactor ProfileStorage to be no singleton -"
+  ],
+  "985": [
+    "UnusedImports: Add detection of imports in same package"
+  ],
+  "990": [
+    "Fix false positive lambda in constructor call -"
+  ],
+  "992": [
+    "Fix magic number report for named constructor calls -"
+  ],
+  "998": [
+    "Flag empty nested functions -"
+  ],
+  "1010": [
+    "Update LabeledExpression to support outer class refs"
+  ],
+  "1012": [
+    "Don't flag overridden function which returns Unit"
+  ],
+  "1022": [
+    "Fixed"
+  ],
+  "1023": [
+    "Added test to ignore tabs in raw strings -"
+  ],
+  "1027": [
+    "Updated FunctionOnlyReturningConstant in interfaces"
+  ],
+  "1030": [
+    "Fixed"
+  ],
+  "1037": [
+    "Do not consider function from object literals into complexity counting"
+  ],
+  "1039": [
+    "Fixed"
+  ],
+  "1043": [
+    "Fixed UtilityClassWithPublicConstructor instance member handling"
+  ],
+  "1047": [
+    "Added Optional Unit check for lone Unit statement"
+  ],
+  "1053": [
+    "State that multiple config files can be specified in cli -"
+  ],
+  "1054": [
+    "Make \"ComplexMethod\" rule also ignore \"return when\""
+  ],
+  "1055": [
+    "Implements MagicNumber for default params in functions"
+  ],
+  "1065": [
+    "Fixed"
+  ],
+  "1068": [
+    "Closes"
+  ],
+  "1069": [
+    "Closes"
+  ],
+  "1075": [
+    "Ignores interfaces in NestedClassesVisibility -"
+  ],
+  "1085": [
+    "Allow to use kotlin.Any? -"
+  ],
+  "1089": [
+    "Add first prototype for compiling test snippets"
+  ],
+  "1101": [
+    "Reference vcsreader repo via GrabResolver -"
+  ],
+  "1107": [
+    "Print stacktraces recursively -"
+  ],
+  "1111": [
+    "Update more renamings of plain to txt -"
+  ],
+  "1113": [
+    "CliArgs Doc Change"
+  ],
+  "1115": [
+    "Revert change to ignoreNamedArguments -",
+    "Add test case for parameter annotations -"
+  ],
+  "1123": [
+    "Fix issue with wrong report name"
+  ],
+  "1133": [
+    "Fix"
+  ],
+  "1136": [
+    "Mention minimal gradle requirement for RC9 -"
+  ],
+  "1141": [
+    "Fix issue with wrong report name"
+  ],
+  "1153": [
+    "Document ConfigAware interface -",
+    "Rename id to ruleId to make clearer what id ConfigAware is using -",
+    "Rename to ruleSetConfig to make clearer that valueOrDefault should be…"
+  ],
+  "1168": [
+    "Publish shadowed jars (-all)"
+  ],
+  "1170": [
+    "Migrate JUnit tests to Spek"
+  ],
+  "1171": [
+    "[gradle-plugin] use lazy evaluation of properties"
+  ],
+  "1175": [
+    "Do not detect parameter name violations in overridden function"
+  ],
+  "1179": [
+    "Merge pull request"
+  ],
+  "1180": [
+    "Merge pull request"
+  ],
+  "1181": [
+    "[gradle-plugin] use lazy evaluation of properties"
+  ],
+  "1189": [
+    "Add new style multi-option issue templates"
+  ],
+  "1199": [
+    "clarify error message in verify documentation task"
+  ],
+  "1208": [
+    "Merge pull request"
+  ],
+  "1212": [
+    "Convert tasks to SourceTasks",
+    "Change --filters argument to only check relative paths"
+  ],
+  "1215": [
+    "[WIP] [POC] Config based aliases"
+  ],
+  "1217": [
+    "AppVeyor: Save Gradle cache to the AppVeyor build cache"
+  ],
+  "1223": [
+    "Updated MethodOverloading message -"
+  ],
+  "1226": [
+    "Add LabeledExpression ignore label option -"
+  ],
+  "1227": [
+    "Exclude external functions from unused parameter check."
+  ],
+  "1230": [
+    "AppVeyor: Disable Kotlin's incremental build support"
+  ],
+  "1238": [
+    "Fixed"
+  ],
+  "1243": [
+    "Show error messages for unused properties distinguish"
+  ],
+  "1248": [
+    "Support new flags in gradle plugin",
+    "Build upon default config for cli module"
+  ],
+  "1252": [
+    "Run detekt-formatting plugin on detekt itself"
+  ],
+  "1257": [
+    "Consider variable to be this prefixed -"
+  ],
+  "1261": [
+    "No BuildFailure for create-baseline"
+  ],
+  "1264": [
+    "Add test case for reported false positive -"
+  ],
+  "1279": [
+    "Reimplement lines of code based rules (LargeClass & LongMethod)"
+  ],
+  "1286": [
+    "Drop kotlin-dsl plugin from detekt-gradle-plugin"
+  ],
+  "1305": [
+    "Fix false positives for UnnecessaryApply rule -"
+  ],
+  "1307": [
+    "Fix deprecation warnings"
+  ],
+  "1317": [
+    "Allow to exclude labeled return statements -"
+  ],
+  "1319": [
+    "Fixes"
+  ],
+  "1331": [
+    "Update ObjectPropertyNaming privatePropertyPattern -"
+  ],
+  "1345": [
+    "Filter wildcards for type references as they can be null -"
+  ],
+  "1347": [
+    "Check named reference accesses for classes -"
+  ],
+  "1352": [
+    "Updated groovydsl version doc -"
+  ],
+  "1354": [
+    "Skip operator functions when searching for unused private members - C…"
+  ],
+  "1359": [
+    "Support multiple it refs in UnnecessaryLet"
+  ],
+  "1362": [
+    "Do not flag actual annotation classes with empty constructor as this …",
+    "Do not report expect'ed annotation classes with an empty constructor - …"
+  ],
+  "1369": [
+    "Actually print the exception message next to the stacktrace -"
+  ],
+  "1385": [
+    "Do not report unused import when alias is used by import from same pa…"
+  ],
+  "1390": [
+    "Consider double colon references for class usages -"
+  ],
+  "1393": [
+    "Run detekt on detekt-gradle-plugin"
+  ],
+  "1395": [
+    "Add a section about how to integrate custom extensions into detekt"
+  ],
+  "1401": [
+    "Run detekt on detekt-gradle-plugin"
+  ],
+  "1411": [
+    "Add ignoreOverridden option for TooManyFunctions rule -"
+  ],
+  "1420": [
+    "Mention jcenter repository in getting started guides"
+  ],
+  "1427": [
+    "Do not report main functions args parameter when main is inside an ob…"
+  ],
+  "1428": [
+    "Do not report annotation classes as candidates for utility class - Cl…"
+  ],
+  "1429": [
+    "Update default package naming rule according to official style guide. C…"
+  ],
+  "1439": [
+    "Add test case for TooManyFunctons fix -"
+  ],
+  "1449": [
+    "Treat androidTest directory and *Spek.kt files as test sources."
+  ],
+  "1450": [
+    "Exclude inline classes as they are a light form of data class -"
+  ],
+  "1457": [
+    "Use sensible defaults or not set properties -"
+  ],
+  "1473": [
+    "Do only consider calls and member accesses in UnnecessaryApply rule"
+  ],
+  "1474": [
+    "Respect callable reference expressions -"
+  ],
+  "1475": [
+    "Fix deprecation warnings",
+    "Test Gradle plugin on multiple Gradle versions"
+  ],
+  "1478": [
+    "Show message only when failFast in config is not null"
+  ],
+  "1481": [
+    "Fix deprecation warnings",
+    "Test Gradle plugin on multiple Gradle versions"
+  ],
+  "1485": [
+    "Single statement in nullable apply calls"
+  ],
+  "1486": [
+    "Fix compliant/noncompliant code example in OptionalWhenBraces"
+  ],
+  "1489": [
+    "Ignore enums in ProtectedMemberInFinalClass rule -"
+  ],
+  "1493": [
+    "Exit process with specific code when detekt finds code issues"
+  ],
+  "1498": [
+    "Show friendlier error when wrong type used for a config parameter"
+  ],
+  "1503": [
+    "Repackage formatting to make it able to use the jar as --plugins jar …"
+  ],
+  "1517": [
+    "Single statement in nullable apply calls"
+  ],
+  "1524": [
+    "Remove the timestamp from the baseline doc",
+    "Remove timestamp from baseline xml files"
+  ],
+  "1525": [
+    "Add newline at end of baseline files"
+  ]
+}

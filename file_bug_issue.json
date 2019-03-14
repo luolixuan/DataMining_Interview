@@ -1,0 +1,889 @@
+{
+  "build.gradle.kts": [
+    "807",
+    "1212"
+  ],
+  "detekt-gradle-plugin/build.gradle.kts": [
+    "807",
+    "1212"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/Detekt.kt": [
+    "807",
+    "1212",
+    "1457"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/DetektCreateBaselineTask.kt": [
+    "807",
+    "1212",
+    "1457"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/DetektGenerateConfigTask.kt": [
+    "807",
+    "1212"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/DetektIdeaFormatTask.kt": [
+    "807",
+    "1212",
+    "1457",
+    "349"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/DetektIdeaInspectionTask.kt": [
+    "807",
+    "1212",
+    "1457",
+    "349"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/DetektPlugin.kt": [
+    "807",
+    "1212",
+    "980",
+    "41"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/extensions/DetektExtension.kt": [
+    "807",
+    "1212",
+    "980",
+    "545",
+    "349",
+    "166",
+    "116"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/Configurations.kt": [
+    "1478",
+    "1212",
+    "69"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/runners/SingleRuleRunner.kt": [
+    "1279"
+  ],
+  "detekt-cli/src/main/resources/default-detekt-config.yml": [
+    "1279",
+    "716",
+    "552",
+    "280"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/LinesOfCode.kt": [
+    "1279"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/Traversing.kt": [
+    "1279"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/LargeClass.kt": [
+    "1279"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/LongMethod.kt": [
+    "1279"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/TooManyFunctionsSpec.kt": [
+    "1439",
+    "552"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/internal/McCabeVisitor.kt": [
+    "1037"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/ComplexMethodSpec.kt": [
+    "1037",
+    "1054"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnusedPrivateClass.kt": [
+    "1345",
+    "1347"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnusedPrivateClassSpec.kt": [
+    "1345",
+    "1347"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnusedImports.kt": [
+    "1319"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnusedImportsSpec.kt": [
+    "1319"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/MethodOverloading.kt": [
+    "1223",
+    "1238"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/MethodOverloadingSpec.kt": [
+    "1223",
+    "1238"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/CliArgs.kt": [
+    "1212"
+  ],
+  "detekt-core/src/main/kotlin/io/gitlab/arturbosch/detekt/core/PathFilter.kt": [
+    "1212"
+  ],
+  "detekt-core/src/test/kotlin/io/gitlab/arturbosch/detekt/core/PathFilterSpec.kt": [
+    "1212"
+  ],
+  "docs/pages/changelog.md": [
+    "1212"
+  ],
+  "appveyor.yml": [
+    "1217"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/ReportPath.kt": [
+    "1123",
+    "1141"
+  ],
+  "detekt-cli/src/test/kotlin/io/gitlab/arturbosch/detekt/cli/out/ReportsSpec.kt": [
+    "1123",
+    "1141"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/naming/FunctionNaming.kt": [
+    "1133"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/naming/FunctionNamingSpec.kt": [
+    "1133"
+  ],
+  "detekt-core/src/main/kotlin/io/gitlab/arturbosch/detekt/core/Detektor.kt": [
+    "1107",
+    "793",
+    "944"
+  ],
+  "detekt-core/src/main/kotlin/io/gitlab/arturbosch/detekt/core/Junk.kt": [
+    "1107"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/exceptions/ThrowingExceptionsWithoutMessageOrCause.kt": [
+    "1065"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/exceptions/ThrowingExceptionsWithoutMessageOrCauseSpec.kt": [
+    "1065"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/ComplexMethod.kt": [
+    "1054"
+  ],
+  "detekt-rules/src/test/resources/cases/ComplexMethods.kt": [
+    "1054"
+  ],
+  "detekt-rules/src/test/resources/cases/NoTabsNegative.kt": [
+    "1023"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/UtilityClassWithPublicConstructor.kt": [
+    "1043"
+  ],
+  "detekt-rules/src/test/resources/cases/UtilityClassesNegative.kt": [
+    "1043"
+  ],
+  "README.md": [
+    "1039",
+    "522",
+    "41",
+    "89",
+    "83",
+    "58",
+    "51"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/EditorConfigMerge.kt": [
+    "1039"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/FormattingRule.kt": [
+    "1039"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/wrappers/Indentation.kt": [
+    "1039"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/wrappers/MaximumLineLength.kt": [
+    "1039"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/wrappers/ParameterListWrapping.kt": [
+    "1039"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/Junk.kt": [
+    "1030"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/MaxLineLength.kt": [
+    "1030"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/TrailingWhitespace.kt": [
+    "1030"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/TrailingWhitespaceSpec.kt": [
+    "1030"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/exceptions/InstanceOfCheckForException.kt": [
+    "1022"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/exceptions/InstanceOfCheckForExceptionSpec.kt": [
+    "1022"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnnecessaryParentheses.kt": [
+    "990",
+    "767"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnnecessaryParenthesesSpec.kt": [
+    "990",
+    "767"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/empty/EmptyFunctionBlock.kt": [
+    "998",
+    "148"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/empty/EmptyFunctionBlockSpec.kt": [
+    "998"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/MagicNumber.kt": [
+    "992",
+    "659",
+    "280"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/MagicNumberSpec.kt": [
+    "992",
+    "659",
+    "276",
+    "280"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/extensions/IdeaExtension.kt": [
+    "980",
+    "413",
+    "349"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/extensions/ProfileExtension.kt": [
+    "980",
+    "545",
+    "349"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/extensions/ProfileStorage.kt": [
+    "980"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/ExpressionBodySyntax.kt": [
+    "976"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/ExpressionBodySyntaxSpec.kt": [
+    "976"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/KtModifierList.kt": [
+    "972"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnusedPrivateMember.kt": [
+    "972",
+    "909",
+    "758"
+  ],
+  "detekt-rules/src/test/resources/cases/UnusedPrivateMemberNegative.kt": [
+    "972"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/naming/TopLevelPropertyNaming.kt": [
+    "960"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/runners/Runner.kt": [
+    "793",
+    "944"
+  ],
+  "detekt-core/src/main/kotlin/io/gitlab/arturbosch/detekt/core/ProcessingSettings.kt": [
+    "793",
+    "944"
+  ],
+  "detekt-gradle-plugin/src/test/kotlin/io/gitlab/arturbosch/detekt/FunctionalTest.kt": [
+    "807"
+  ],
+  "detekt-cli/src/test/kotlin/io/gitlab/arturbosch/detekt/cli/ConfigAssert.kt": [
+    "926",
+    "568"
+  ],
+  "detekt-core/src/main/kotlin/io/gitlab/arturbosch/detekt/core/KtCompiler.kt": [
+    "926",
+    "69",
+    "41"
+  ],
+  "detekt-test/src/main/kotlin/io/gitlab/arturbosch/detekt/test/KtTestCompiler.kt": [
+    "926",
+    "115"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/DetektCheckTask.kt": [
+    "854",
+    "807"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnusedPrivateMemberSpec.kt": [
+    "909"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/CompositeConfig.kt": [
+    "881"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Config.kt": [
+    "881",
+    "18"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/ConfigAware.kt": [
+    "881"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/YamlConfig.kt": [
+    "881",
+    "64",
+    "18"
+  ],
+  "detekt-api/src/test/kotlin/io/gitlab/arturbosch/detekt/api/CompositeConfigTest.kt": [
+    "881"
+  ],
+  "detekt-api/src/test/resources/composite-test.yml": [
+    "881"
+  ],
+  "detekt-api/src/test/resources/detekt.yml": [
+    "881"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/FailFastConfig.kt": [
+    "881"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/naming/NamingConventionCustomPatternTest.kt": [
+    "881"
+  ],
+  "detekt-test/src/main/kotlin/io/gitlab/arturbosch/detekt/test/TestConfig.kt": [
+    "881"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/OptionalAbstractKeyword.kt": [
+    "783"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/OptionalAbstractKeywordSpec.kt": [
+    "783"
+  ],
+  "detekt-generator/src/main/kotlin/io/gitlab/arturbosch/detekt/generator/collection/RuleVisitor.kt": [
+    "814",
+    "691"
+  ],
+  "detekt-generator/src/test/kotlin/io/gitlab/arturbosch/detekt/generator/collection/RuleCollectorSpec.kt": [
+    "814"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/IteratorNotThrowingNoSuchElementException.kt": [
+    "814"
+  ],
+  "docs/pages/documentation/potential-bugs.md": [
+    "814"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/NestedClassesVisibility.kt": [
+    "814"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/NestedClassesVisibilitySpec.kt": [
+    "814"
+  ],
+  "detekt-rules/src/test/resources/cases/NestedClassVisibilityPositive.kt": [
+    "814"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/EqualsAlwaysReturnsTrueOrFalse.kt": [
+    "738"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/EqualsAlwaysReturnsTrueOrFalseSpec.kt": [
+    "738"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/empty/EmptyDefaultConstructor.kt": [
+    "723"
+  ],
+  "detekt-rules/src/test/resources/cases/EmptyDefaultConstructor.kt": [
+    "723"
+  ],
+  "detekt-generator/documentation/naming.md": [
+    "716"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/naming/EnumNaming.kt": [
+    "716"
+  ],
+  "detekt-generator/documentation/exceptions.md": [
+    "691"
+  ],
+  "detekt-generator/documentation/style.md": [
+    "691"
+  ],
+  "reports/baseline.xml": [
+    "568",
+    "83",
+    "87",
+    "89"
+  ],
+  "reports/failfast.yml": [
+    "568",
+    "280"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/SpacingBetweenPackageAndImports.kt": [
+    "568"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/extensions/Constants.kt": [
+    "545"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/TooManyFunctions.kt": [
+    "552",
+    "108"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/SuppressingSpec.kt": [
+    "552",
+    "442",
+    "108"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnnecessaryAbstractClass.kt": [
+    "550",
+    "534"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/UnnecessaryAbstractClassSpec.kt": [
+    "550",
+    "534"
+  ],
+  "detekt-rules/src/test/resources/cases/UnnecessaryAbstractClassNegative.kt": [
+    "550",
+    "534"
+  ],
+  "detekt-rules/src/test/resources/cases/UnnecessaryAbstractClassPositive.kt": [
+    "550",
+    "534"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/KT.kt": [
+    "534",
+    "442",
+    "428",
+    "115",
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/SerialVersionUIDInSerializableClassSpec.kt": [
+    "534"
+  ],
+  "detekt-rules/src/test/resources/cases/SerializableNegative.kt": [
+    "534"
+  ],
+  "detekt-rules/src/test/resources/cases/Serializable.kt → detekt-rules/src/test/resources/cases/SerializablePositive.kt": [
+    "534"
+  ],
+  "detekt-rules/src/test/resources/cases/UnnecessaryAbstractClass.kt → detekt-rules/src/test/resources/cases/UnnecessaryAbstractClassPositive.kt": [
+    "534"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/CollabsibleIfStatements.kt": [
+    "522"
+  ],
+  "detekt-rules/src/test/resources/cases/CollapsibleIfs.kt": [
+    "522"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Suppressible.kt": [
+    "442",
+    "69"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/StringLiteralDuplication.kt": [
+    "442"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/StringLiteralDuplicationSpec.kt": [
+    "442"
+  ],
+  "detekt-rules/src/test/resources/SuppressStringLiteralDuplication.kt": [
+    "442"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/UselessPostfixExpression.kt": [
+    "491",
+    "466"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/UselessPostfixExpressionSpec.kt": [
+    "491",
+    "466"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/UseDataClass.kt": [
+    "435"
+  ],
+  "detekt-rules/src/test/resources/cases/UseDataClass.kt": [
+    "435"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/NewLineAtEndOfFile.kt": [
+    "428"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/NewLineAtEndOfFile.kt": [
+    "428"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/NewLineAtEndOfFileSpec.kt": [
+    "428"
+  ],
+  "detekt-rules/src/test/resources/cases/EmptyKtFile.kt": [
+    "428"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/ProtectedMemberInFinalClass.kt": [
+    "389"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/ProtectedMemberInFinalClassSpec.kt": [
+    "389"
+  ],
+  "detekt-rules/src/test/resources/cases/FinalClass.kt": [
+    "389"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/RuleExtensions.kt": [
+    "373"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/naming/NamingRules.kt": [
+    "373"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/style/NamingConventionViolationSpec.kt": [
+    "373"
+  ],
+  "gradle.properties": [
+    "373",
+    "41",
+    "87",
+    "58"
+  ],
+  "detekt-gradle-plugin/src/main/kotlin/io/gitlab/arturbosch/detekt/extensions/ReflectionUtils.kt": [
+    "349"
+  ],
+  "detekt-gradle-plugin/src/test/kotlin/io/gitlab/arturbosch/detekt/extensions/DetektExtensionTest.kt": [
+    "349",
+    "166"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/visitors/ConditionalPathVisitor.kt": [
+    "304",
+    "58"
+  ],
+  "detekt-formatting/src/test/kotlin/io/gitlab/arturbosch/detekt/formatting/OptionalReturnKeywordTest.kt": [
+    "304"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/documentation/UndocumentedPublicClass.kt": [
+    "213"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/UndocumentedPublicClassSpec.kt": [
+    "213",
+    "104"
+  ],
+  "detekt-core/src/test/kotlin/io/gitlab/arturbosch/detekt/core/CustomRuleSetProviderSpec.kt": [
+    "214"
+  ],
+  "detekt-core/src/test/resources/sample-rule-set.jar": [
+    "214"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/LateinitUsage.kt": [
+    "213"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/LateinitUsageSpec.kt": [
+    "213"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/UnusedImports.kt": [
+    "201"
+  ],
+  "detekt-formatting/src/test/kotlin/io/gitlab/arturbosch/detekt/formatting/UnusedImportsTest.kt": [
+    "201"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/Main.kt": [
+    "166",
+    "83",
+    "11",
+    "51"
+  ],
+  "detekt-rules/src/test/resources/cases/Empty.kt": [
+    "148"
+  ],
+  "detekt-rules/src/test/resources/cases/Comments.kt": [
+    "104"
+  ],
+  "detekt-formatting/src/test/kotlin/io/gitlab/arturbosch/detekt/formatting/IndentationTest.kt": [
+    "89"
+  ],
+  "detekt-api/src/test/kotlin/io/gitlab/arturbosch/detekt/api/ConfigSpec.kt": [
+    "115",
+    "64"
+  ],
+  "detekt-api/src/test/kotlin/io/gitlab/arturbosch/detekt/api/Utils.kt": [
+    "115"
+  ],
+  "detekt-formatting/src/test/kotlin/io/gitlab/arturbosch/detekt/formatting/FormattingProviderTest.kt": [
+    "115"
+  ],
+  "detekt-test/src/main/kotlin/io/gitlab/arturbosch/detekt/test/Resources.kt": [
+    "115"
+  ],
+  "detekt-rules/src/test/resources/SuppressedElementsByClassAnnotation.kt": [
+    "108"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/documentation/NoDocOverPublicClass.kt": [
+    "104"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/NoDocOverPublicClassSpec.kt": [
+    "104"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/ExpressionBodySyntax.kt": [
+    "58",
+    "87",
+    "69"
+  ],
+  "detekt-formatting/src/test/kotlin/io/gitlab/arturbosch/detekt/formatting/ExpressionBodySyntaxTest.kt": [
+    "58",
+    "87"
+  ],
+  "detekt-formatting/src/test/kotlin/io/gitlab/arturbosch/detekt/formatting/visitors/ConditionalPathVisitorTest.kt": [
+    "58"
+  ],
+  "detekt-formatting/src/test/resources/cases/ConditionalReturns.kt": [
+    "58"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/Indentation.kt": [
+    "89",
+    "69"
+  ],
+  "detekt-formatting/src/test/resources/indent.yml": [
+    "89"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/OutputFacade.kt": [
+    "83"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/SpacingAfterKeyword.kt": [
+    "71",
+    "69"
+  ],
+  "detekt-formatting/src/test/kotlin/io/gitlab/arturbosch/detekt/formatting/SpacingAfterKeywordTest.kt": [
+    "71"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/ProjectExtension.kt": [
+    "69"
+  ],
+  "detekt-migration/src/main/kotlin/io/gitlab/arturbosch/detekt/migration/MigrateImportsRule.kt": [
+    "69"
+  ],
+  "detekt-rules/src/test/resources/cases/Default.kt": [
+    "69"
+  ],
+  "build.gradle": [
+    "69",
+    "41",
+    "87"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Entity.kt": [
+    "69"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Junk.kt": [
+    "69",
+    "18",
+    "41"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Location.kt": [
+    "69"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Signatures.kt": [
+    "69",
+    "18",
+    "15"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/TokenRule.kt": [
+    "69",
+    "41",
+    "18"
+  ],
+  "detekt-api/src/test/kotlin/io/gitlab/arturbosch/detekt/api/RuleTest.kt": [
+    "69"
+  ],
+  "detekt-cli/build.gradle": [
+    "69",
+    "58"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/debug/Debugger.kt": [
+    "69"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/debug/ElementPrinter.kt": [
+    "69"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/debug/TokenPrinter.kt": [
+    "69"
+  ],
+  "detekt-core/src/main/kotlin/io/gitlab/arturbosch/detekt/core/Detektion.kt": [
+    "69"
+  ],
+  "detekt-core/src/main/kotlin/io/gitlab/arturbosch/detekt/core/FileProcessListeners.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/ConsecutiveBlankLines.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/ExpressionBodySyntaxLineBreaks.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/Junk.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/MultipleSpaces.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/OptionalSemicolon.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/OptionalUnit.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/Spacing.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/SpacingAfterComma.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/SpacingAroundBraces.kt": [
+    "69"
+  ],
+  "detekt-formatting/src/main/kotlin/io/gitlab/arturbosch/detekt/formatting/SpacingAroundColon.kt": [
+    "69"
+  ],
+  "detekt-api/src/test/resources/empty.yml": [
+    "64"
+  ],
+  "detekt-api/src/test/resources/oneitem.yml": [
+    "64"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Findings.kt": [
+    "18",
+    "11"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/complexity/NestedBlockDepth.kt": [
+    "51"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/NestedBlockDepthSpec.kt": [
+    "51"
+  ],
+  "detekt-gradle-plugin/build.gradle": [
+    "41"
+  ],
+  "default-detekt-config.yml": [
+    "87",
+    "89",
+    "10",
+    "83"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/style/NamingConventionViolation.kt": [
+    "87",
+    "89",
+    "10",
+    "15"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/NamingConventionViolationSpec.kt": [
+    "87",
+    "89"
+  ],
+  "detekt-rules/src/test/resources/cases/NamingConventions.kt": [
+    "15"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/NoElseInWhenExpression.kt": [
+    "10"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/providers/PotentialBugProvider.kt": [
+    "10"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/NoElseInWhenSpec.kt": [
+    "10"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/ClasspathResourceConverter.kt": [
+    "83"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/PathConverters.kt": [
+    "83"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/Runner.kt": [
+    "83",
+    "87",
+    "89",
+    "51"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/SmellBorder.kt": [
+    "83"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/SmellThreshold.kt": [
+    "83"
+  ],
+  "detekt-cli/src/main/kotlin/io/gitlab/arturbosch/detekt/cli/DetektBaselineFormat.kt": [
+    "83",
+    "87",
+    "89"
+  ],
+  "CHANGELOG.md": [
+    "71"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/LargeClass.kt": [
+    "64",
+    "11"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/bugs/EqualsWithHashCodeExist.kt": [
+    "64"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/ConsecutiveBlankLinesTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/IndentationTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/MultipleSpacesTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAfterCommaTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAfterKeywordTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAroundColonTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAroundCurlyBracesTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAroundOperatorsTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/TrailingSpacesTest.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/ConsecutiveBlankLines.kt": [
+    "41"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/RuleTest.kt": [
+    "41"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/Rule.kt": [
+    "41",
+    "18"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAfterKeyword.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/UnusedImports.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/MultipleSpaces.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAfterComma.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAroundColon.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAroundCurlyBraces.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/SpacingAroundOperator.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/TrailingSpaces.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/Junk.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/formatting/Indentation.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/providers/FormattingProvider.kt": [
+    "41"
+  ],
+  "detekt-rules/src/main/resources/META-INF/services/io.gitlab.arturbosch.detekt.api.RuleSetProvider": [
+    "41"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/DetektVisitor.kt": [
+    "18"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/KtTestCompiler.kt": [
+    "18"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/RuleSet.kt": [
+    "18"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/RuleSetProvider.kt": [
+    "18"
+  ],
+  "detekt-api/src/main/kotlin/io/gitlab/arturbosch/detekt/api/SpecificRules.kt": [
+    "18"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/ComplexMethod.kt": [
+    "11"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/LongMethod.kt": [
+    "11"
+  ],
+  "detekt-rules/src/main/kotlin/io/gitlab/arturbosch/detekt/rules/LongParameterList.kt": [
+    "11"
+  ],
+  "detekt-rules/src/test/kotlin/io/gitlab/arturbosch/detekt/rules/ComplexMethodSpec.kt": [
+    "11"
+  ]
+}
